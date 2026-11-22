@@ -1,0 +1,25 @@
+Item,Model,N,Pooled AUC,Mean AUC,Log loss,Brier
+Redistribution fairness,Pooled core,11215,0.520,0.510,0.6052,0.2073
+Redistribution fairness,Country baseline,11215,0.611,0.500,0.5882,0.2006
+Redistribution fairness,Centred core,11215,0.522,0.520,0.6050,0.2073
+Redistribution fairness,Multilevel core,11215,0.613,0.520,0.5877,0.2003
+Redistribution fairness,Context only,11215,0.535,0.499,0.6040,0.2069
+Redistribution fairness,Core + context,11215,0.536,0.516,0.6037,0.2067
+Cultural non-rejection,Pooled core,11234,0.647,0.552,0.5002,0.1620
+Cultural non-rejection,Country baseline,11234,0.810,0.500,0.4007,0.1241
+Cultural non-rejection,Centred core,11234,0.564,0.557,0.5195,0.1687
+Cultural non-rejection,Multilevel core,11234,0.816,0.557,0.3960,0.1224
+Cultural non-rejection,Context only,11234,0.706,0.501,0.4641,0.1462
+Cultural non-rejection,Core + context,11234,0.724,0.557,0.4586,0.1444
+Democracy preference,Pooled core,11129,0.558,0.548,0.6022,0.2062
+Democracy preference,Country baseline,11129,0.680,0.500,0.5637,0.1903
+Democracy preference,Centred core,11129,0.556,0.561,0.6027,0.2064
+Democracy preference,Multilevel core,11129,0.689,0.562,0.5597,0.1887
+Democracy preference,Context only,11129,0.532,0.500,0.6047,0.2071
+Democracy preference,Core + context,11129,0.572,0.552,0.6000,0.2052
+Tax–service preference,Pooled core,10569,0.554,0.555,0.6859,0.2464
+Tax–service preference,Country baseline,10569,0.579,0.500,0.6808,0.2439
+Tax–service preference,Centred core,10569,0.553,0.555,0.6861,0.2465
+Tax–service preference,Multilevel core,10569,0.593,0.555,0.6767,0.2419
+Tax–service preference,Context only,10569,0.508,0.499,0.6902,0.2485
+Tax–service preference,Core + context,10569,0.552,0.556,0.6861,0.2465

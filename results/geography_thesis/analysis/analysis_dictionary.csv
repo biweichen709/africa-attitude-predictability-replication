@@ -1,0 +1,11 @@
+variable,definition,level,r8_missing,r10_missing
+age10,Age divided by ten; no age imputation,individual,0.0002495632642874969,0.00029434273267793016
+female,sex=2 versus sex=1; survey binary sex measure,individual,0.0,0.0
+urban_i,urban=1 versus rural/periurban codes 2/3,individual,0.0,0.0
+education,Original ordered 0–9 education code; linear approximation,individual,0.0036394642708593296,0.0045525009320853205
+deprivation,"Arithmetic mean of five 0–4 deprivation items, all required",individual,0.010169703019715497,0.0113812523302133
+assets,"Count of six assets accessible personally or through household (code>0), all required",individual,0.029323683553780882,0.02688330291791762
+electricity,Household electricity 0/1,individual,0.0025996173363280924,0.0008437825003433998
+employed,employment codes 2/3 versus 0/1,individual,0.0036602612095499544,0.0007260454072722278
+v2x_polyarchy,"V-Dem v16 electoral democracy index, prior calendar year",country-year,0.0,0.0
+log_gdp_pc,Inherited lagged log GDP per capita; original World Bank provenance retained,country-year,0.0,0.0

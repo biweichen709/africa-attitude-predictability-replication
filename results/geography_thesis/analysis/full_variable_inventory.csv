@@ -1,0 +1,58 @@
+variable,r8_dtype,r8_missing,r10_available,r10_missing,role,definition
+row_id,str,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+country,str,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+region,str,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+psu,str,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+stratum,str,0.0,False,,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+survey_year,int32,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+weight_raw,float64,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+weight,float64,0.0,False,,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+age,float64,0.0002495632642874969,True,0.00029434273267793016,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+sex,float64,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+urban,float64,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+education,float64,0.0036394642708593296,True,0.0045525009320853205,primary core,Original ordered 0–9 education code; linear approximation
+employment,float64,0.0036602612095499544,True,0.0007260454072722278,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+occupation,float64,0.013809167290574827,True,0.007338945468103059,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+food_deprivation,float64,0.001684552033940604,True,0.0010007652911049626,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+water_deprivation,float64,0.001601364279178105,True,0.0008241596514982045,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+medical_deprivation,float64,0.0036394642708593296,True,0.003257392908302427,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+fuel_deprivation,float64,0.003015556110140587,True,0.003590981338670748,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+cash_deprivation,float64,0.0049912652857499375,True,0.004650615176311297,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+asset_radio,float64,0.005823142833374927,True,0.004120798257491023,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+asset_tv,float64,0.011063971383412361,True,0.0027079531406369577,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+asset_vehicle,float64,0.013975542800099825,True,0.0042189125017169996,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+asset_computer,float64,0.01653356625904667,True,0.009163870410706227,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+asset_bank,float64,0.017261459113218535,True,0.019191146170601046,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+asset_phone,float64,0.006031112220281174,True,0.0013735994191636741,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+electricity_home,float64,0.0025996173363280924,True,0.0008437825003433998,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+unsafe_neighbourhood,float64,0.0025372265202562184,True,0.002040776279900316,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+fear_crime_home,float64,0.0022044755012062224,False,,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+area_electricity,float64,0.001996506114299975,True,0.0034536213967543807,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+area_water,float64,0.006488644871474919,True,0.016326210239202527,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+area_school,float64,0.0029947591714499623,True,0.014108828319695453,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+area_clinic,float64,0.00881790200482489,True,0.02095720256666863,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+economic,float64,0.024831544796605938,False,,outcome,Agreement that higher tax rates on rich people to benefit poor people are fair; neutral retained as non-agreement
+economic_raw,float64,0.024831544796605938,False,,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+cultural,float64,0.022169536644205973,True,0.017778301053746982,outcome,"Does not dislike having homosexual neighbours (would not care or would like); narrow tolerance item, not sexual orientation"
+cultural_raw,float64,0.022169536644205973,False,,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+political,float64,0.030945844771649612,True,0.03065088989619513,outcome,Democracy preferable to any other government versus indifference/conditional nondemocratic preference
+political_raw,float64,0.030945844771649612,False,,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+welfare,float64,0.08098327926129274,False,,outcome,Higher taxes with more government services preferred over lower taxes with fewer services; neither excluded
+welfare_raw,float64,0.08098327926129274,False,,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+iso3,str,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+gdp_pc,float64,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+unemployment,float64,0.0,True,0.023547418614234414,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+gini,float64,0.1206222444056235,True,0.46339357547928806,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+education_spending,float64,0.062390816071874224,True,0.020290025705931986,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+public_health_spending,float64,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+log_gdp_pc,float64,0.0,True,0.0,identifier/context/legacy diagnostic,Inherited lagged log GDP per capita; original World Bank provenance retained
+age10,float64,0.0002495632642874969,True,0.00029434273267793016,primary core,Age divided by ten; no age imputation
+female,float64,0.0,True,0.0,primary core,sex=2 versus sex=1; survey binary sex measure
+urban_i,float64,0.0,True,0.0,primary core,urban=1 versus rural/periurban codes 2/3
+deprivation,float64,0.010169703019715497,True,0.0113812523302133,primary core,"Arithmetic mean of five 0–4 deprivation items, all required"
+assets,float64,0.029323683553780882,True,0.02688330291791762,primary core,"Count of six assets accessible personally or through household (code>0), all required"
+electricity,float64,0.0025996173363280924,True,0.0008437825003433998,primary core,Household electricity 0/1
+employed,float64,0.0036602612095499544,True,0.0007260454072722278,primary core,employment codes 2/3 versus 0/1
+occupation_factor,string,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+core_complete,bool,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted
+context_year,int64,0.0,True,0.0,identifier/context/legacy diagnostic,See inherited config and metadata; not newly interpreted

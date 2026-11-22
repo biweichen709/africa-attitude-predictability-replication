@@ -1,0 +1,795 @@
+[
+  {
+    "path": "results/geography_thesis/analysis/all_multilevel_coefficients.csv",
+    "rows": 392,
+    "columns": [
+      "target",
+      "model",
+      "term",
+      "estimate",
+      "std_error",
+      "lower",
+      "upper",
+      "inference"
+    ],
+    "sha256": "4d7d3d942277dd639b2c1786b700b04f0932c5fac54852b932bbeab40b895df0",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/all_variance_components.csv",
+    "rows": 36,
+    "columns": [
+      "grp",
+      "var1",
+      "var2",
+      "vcov",
+      "sdcor",
+      "target",
+      "model"
+    ],
+    "sha256": "1b9c301c326fd871f1158f90e3212f6dc8148bbf25c2bccc8b577fba99d4fdc4",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/analysis_dictionary.csv",
+    "rows": 10,
+    "columns": [
+      "variable",
+      "definition",
+      "level",
+      "r8_missing",
+      "r10_missing"
+    ],
+    "sha256": "2e20c7923e5e51976aae24ff9f03e480ca60fd3111a93f6496587ca2766f86b2",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/between_scales_cultural.csv",
+    "rows": 8,
+    "columns": [
+      "term",
+      "between_sd"
+    ],
+    "sha256": "a6a2050c8232c2b92b5d010b8e28883911a06e9a85a6083149491bbecaf40278",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/between_scales_economic.csv",
+    "rows": 8,
+    "columns": [
+      "term",
+      "between_sd"
+    ],
+    "sha256": "eadcb69ca68c0917668dd23c76be6ce2c0559c0a849af45f9462a93a29035cf7",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/between_scales_political.csv",
+    "rows": 8,
+    "columns": [
+      "term",
+      "between_sd"
+    ],
+    "sha256": "6de4b3b6650d4f2ce0feb70f0062543fae16a53e89a796ceb74d1d0356522820",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/between_scales_welfare.csv",
+    "rows": 8,
+    "columns": [
+      "term",
+      "between_sd"
+    ],
+    "sha256": "a1362b46394b5e630281ab87739ef374a86551750fce5b5329eb8fff2e6245b8",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/calibration_bins.csv",
+    "rows": 388,
+    "columns": [
+      "bin",
+      "n",
+      "predicted",
+      "observed",
+      "mass",
+      "target",
+      "setting",
+      "cohort",
+      "model"
+    ],
+    "sha256": "f7038fbda741d180e35a54bca5cf7ac6249d88295ee6da5ee20352b2b7d9724a",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/complete_data_dictionary.csv",
+    "rows": 85,
+    "columns": [
+      "round",
+      "variable",
+      "source_item",
+      "definition",
+      "measurement_level",
+      "valid_codes",
+      "missing_n",
+      "missing_fraction",
+      "distinct_observed"
+    ],
+    "sha256": "2a821a2852a3ea9157c4fdf235f5dd9db6ca4603d43aa396a8197c6503842866",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/convergence_scaled_audit.csv",
+    "rows": 24,
+    "columns": [
+      "target",
+      "model",
+      "convergence",
+      "pdHess",
+      "max_raw_gradient",
+      "max_se_scaled_gradient"
+    ],
+    "sha256": "f425f20dde0367c95027092de298c00358ea319603e1cc64ec5c5cf12a422e45",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/country_descriptives.csv",
+    "rows": 136,
+    "columns": [
+      "target",
+      "iso3",
+      "n",
+      "prevalence",
+      "within_cell",
+      "between_cell"
+    ],
+    "sha256": "9bad927d24a329b24204eb4e778b4c3d4b68cb31d57a39ca6a714a77480577d8",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/fixed_effects_cluster_robust.csv",
+    "rows": 332,
+    "columns": [
+      "target",
+      "specification",
+      "term",
+      "n",
+      "countries",
+      "estimate",
+      "cluster_se",
+      "lower",
+      "upper",
+      "p_value",
+      "converged"
+    ],
+    "sha256": "d42657e60df751f393b21da3472fdaeefd015835fa350b1ef90f68131533554e",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/full_variable_inventory.csv",
+    "rows": 57,
+    "columns": [
+      "variable",
+      "r8_dtype",
+      "r8_missing",
+      "r10_available",
+      "r10_missing",
+      "role",
+      "definition"
+    ],
+    "sha256": "a041659e15a252edc7119e275b9ab5e2402c7b9b66ac85e666c0ec56e6713cd8",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/legacy_auc_pair_decomposition.csv",
+    "rows": 2,
+    "columns": [
+      "pooled_auc",
+      "within_pair_mass",
+      "within_pair_auc",
+      "cross_pair_auc",
+      "diagonal_contribution",
+      "cross_contribution",
+      "mean_country_auc",
+      "reconstruction_error",
+      "target"
+    ],
+    "sha256": "faf2121b6d5103257ad06cf5432bb4767acb461215d4bf0234eee7444ddf647c",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/legacy_pair_matrix_cultural.csv",
+    "rows": 1444,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "b460703a13c9e09e0af04b34fcf106ecc161f83e149fffc6a74c6b53c41899a6",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/legacy_pair_matrix_political.csv",
+    "rows": 1444,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "31e825480cc8a30da44b454a512fc93eda6c014710869a737f885814a20d41f1",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/matched_auc_pair_decomposition.csv",
+    "rows": 12,
+    "columns": [
+      "target",
+      "model",
+      "setting",
+      "pooled_auc",
+      "within_pair_mass",
+      "within_pair_auc",
+      "cross_pair_auc",
+      "diagonal_contribution",
+      "cross_contribution",
+      "mean_country_auc",
+      "reconstruction_error"
+    ],
+    "sha256": "d9c6cbaf4c0726015f9e6ba95d83d620ae02cf7ad618ce594d3fb53b4c054edf",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/multilevel_coefficients_cultural.csv",
+    "rows": 98,
+    "columns": [
+      "target",
+      "model",
+      "term",
+      "estimate",
+      "std_error",
+      "lower",
+      "upper",
+      "inference"
+    ],
+    "sha256": "1194a92a98d0735f1081effc73f3413f3b29aff37687705d37e0f9bf0a6fac3c",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/multilevel_coefficients_economic.csv",
+    "rows": 98,
+    "columns": [
+      "target",
+      "model",
+      "term",
+      "estimate",
+      "std_error",
+      "lower",
+      "upper",
+      "inference"
+    ],
+    "sha256": "05c1fe7edf82728b2880dc4c686657c22cd7ab60de873d13ec7afd2c41ec83be",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/multilevel_coefficients_political.csv",
+    "rows": 98,
+    "columns": [
+      "target",
+      "model",
+      "term",
+      "estimate",
+      "std_error",
+      "lower",
+      "upper",
+      "inference"
+    ],
+    "sha256": "e3ca8ca2b319c9bdd406305091b8bf0fdbccfd65f0abcbc72a9112297295a0e5",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/multilevel_coefficients_welfare.csv",
+    "rows": 98,
+    "columns": [
+      "target",
+      "model",
+      "term",
+      "estimate",
+      "std_error",
+      "lower",
+      "upper",
+      "inference"
+    ],
+    "sha256": "8f79fb0bb0cb382d586e8b50d111e659b322d9714692ca208b38c9e480171418",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/observed_variance.csv",
+    "rows": 10,
+    "columns": [
+      "target",
+      "n",
+      "countries",
+      "prevalence",
+      "total_variance",
+      "between_country",
+      "between_positions_within_country",
+      "within_position",
+      "between_country_share",
+      "between_position_share",
+      "within_position_share",
+      "between_country_share_lo",
+      "between_country_share_hi",
+      "sample"
+    ],
+    "sha256": "9f687e8b37eb18e04346b560a62d47bf2c5c3c51b2412699881b8d67051674dc",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_cultural_country_only.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "d0f00053c1ec682ffdd11322df389c9e3d97579d37284030f0f46954dd0b0173",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_cultural_multilevel.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "4a1b2da7ccebd80ac878212a5a1e2597a32086fd20920b0db446924ddb45579e",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_cultural_pooled.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "8cf14ff1290237c4522de989d8d5c040fc002d6a60234b55233242fe719663b2",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_economic_country_only.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "285fdefdcca26b405f72a1ed0e308fd3cf95b3bcded68c26f2b2c7232080f6c3",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_economic_multilevel.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "74252be3193936b0e32c653f57c2231976d0b4004354dc47c58d9b2fcc02cf7c",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_economic_pooled.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "8c03d955622054c6276541075f8cdb23ca33cf3c215ab224e2479af82b1719cf",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_political_country_only.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "6e9e01d3f1002a8f864e0e543f9766a7f13e629a4e4110acaef2542b5a6478e5",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_political_multilevel.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "5b57b4cd7bc2d57f4867c6db1976e92f8bbccf2f6b087d4267593cc82f57a13c",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_political_pooled.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "50475df69ce9bf3c843cf6e523615146f429729b5ab4f7779b09c9515b725a87",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_welfare_country_only.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "47c26b7334e65fb92bdf04a99f784045b72514d90e4051819ad3b166e78b8265",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_welfare_multilevel.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "d0988348fd5fa9a5bd447dc1e10e3bd7f8d23ca13c316086e3210d60c18ee413",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/pair_known_country_welfare_pooled.csv",
+    "rows": 1156,
+    "columns": [
+      "positive_country",
+      "negative_country",
+      "pair_mass",
+      "pair_auc",
+      "contribution",
+      "diagonal"
+    ],
+    "sha256": "0b82f5703edf59528c46cc965e8226aa30f7007587735ee3238b5705309da0d4",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/paired_country_bootstrap.csv",
+    "rows": 222,
+    "columns": [
+      "target",
+      "setting",
+      "cohort",
+      "new",
+      "reference",
+      "metric",
+      "delta",
+      "lower",
+      "upper",
+      "countries",
+      "inference"
+    ],
+    "sha256": "a06e959128f2b3dd8e1c39f99554f2b22f29e5baa81d3d7143891ecf2c8b7a08",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/prediction_country_metrics.csv",
+    "rows": 3104,
+    "columns": [
+      "iso3",
+      "n",
+      "auc",
+      "log_loss",
+      "brier",
+      "prevalence",
+      "mean_prediction",
+      "target",
+      "setting",
+      "cohort",
+      "model"
+    ],
+    "sha256": "eb026f62db6edafdd41d459f20c44217a43dc381b11f68fc49ceab0adb890183",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/prediction_metrics.csv",
+    "rows": 102,
+    "columns": [
+      "target",
+      "setting",
+      "cohort",
+      "model",
+      "n",
+      "countries",
+      "pooled_auc",
+      "mean_country_auc",
+      "sd_country_auc",
+      "min_country_auc",
+      "max_country_auc",
+      "log_loss",
+      "brier",
+      "calibration_intercept",
+      "calibration_slope",
+      "ece10",
+      "mean_prediction",
+      "prevalence"
+    ],
+    "sha256": "4afc05329837db48c179583f4e4d8bc2286e91f88a244ba95356ba6ea31f8f6d",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/prevalence_by_wave_country.csv",
+    "rows": 212,
+    "columns": [
+      "wave",
+      "target",
+      "iso3",
+      "n",
+      "prevalence"
+    ],
+    "sha256": "7d10ed54adb08d447c9cc30481b71debabdfbc2a15fd961bc8dc8f8a84090da3",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/quadrature_sensitivity.csv",
+    "rows": 4,
+    "columns": [
+      "target",
+      "AGQ9",
+      "Laplace",
+      "absolute_difference"
+    ],
+    "sha256": "d77b359ffb2429986bcc22293b0917121e545684102b5d762f2b76d4d8c4f097",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/random_effects_cultural.csv",
+    "rows": 34,
+    "columns": [
+      "(Intercept)",
+      "w_education",
+      "iso3"
+    ],
+    "sha256": "6c2d64c9436995ad38694575f9a22515efc2f2c3646be1545746528feeb7de8f",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/random_effects_economic.csv",
+    "rows": 34,
+    "columns": [
+      "(Intercept)",
+      "w_education",
+      "iso3"
+    ],
+    "sha256": "c8508e9a51b5669c45f2d96254bf201483860c7fa9da01f458523f14391a5f17",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/random_effects_political.csv",
+    "rows": 34,
+    "columns": [
+      "(Intercept)",
+      "w_education",
+      "iso3"
+    ],
+    "sha256": "86e736e350b303fdd490fecc6763d3c4485569d0fe827911d7239f4f67f0fbd2",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/random_effects_welfare.csv",
+    "rows": 34,
+    "columns": [
+      "(Intercept)",
+      "w_education",
+      "iso3"
+    ],
+    "sha256": "410d72a292af8317206017611a3adff25ca3b6387b3fab72eeb97909ecf2c1c3",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/sample_flow.csv",
+    "rows": 212,
+    "columns": [
+      "round",
+      "target",
+      "iso3",
+      "total_n",
+      "outcome_n",
+      "analysis_n",
+      "outcome_missing",
+      "core_missing"
+    ],
+    "sha256": "5b891200586c0957c12966b1078095db8ccfa335fcfa0f2300c627abef32f182",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/temporal_slope_changes.csv",
+    "rows": 16,
+    "columns": [
+      "target",
+      "variable",
+      "n",
+      "countries",
+      "n_r8",
+      "n_r10",
+      "r8_slope",
+      "r10_slope",
+      "change",
+      "country_cluster_se",
+      "lower",
+      "upper",
+      "p_value",
+      "converged",
+      "status"
+    ],
+    "sha256": "4185b65f224e0b8aebfb827e743e411f2d8c15e3fdec97404c277418641e807b",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/variance_components_cultural.csv",
+    "rows": 9,
+    "columns": [
+      "grp",
+      "var1",
+      "var2",
+      "vcov",
+      "sdcor",
+      "target",
+      "model"
+    ],
+    "sha256": "aad185e80f47ecc26291497a35e8e31fcf4976dbc429c700abe214cfa1725b9c",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/variance_components_economic.csv",
+    "rows": 9,
+    "columns": [
+      "grp",
+      "var1",
+      "var2",
+      "vcov",
+      "sdcor",
+      "target",
+      "model"
+    ],
+    "sha256": "2e9e8c4834a341522dee928a230b2462ed89a60f9cf44ed429111e269f9935df",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/variance_components_political.csv",
+    "rows": 9,
+    "columns": [
+      "grp",
+      "var1",
+      "var2",
+      "vcov",
+      "sdcor",
+      "target",
+      "model"
+    ],
+    "sha256": "8d569ad6a208a5267186156b19315449710266becbdda4e259837e9a52ebd232",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/variance_components_welfare.csv",
+    "rows": 9,
+    "columns": [
+      "grp",
+      "var1",
+      "var2",
+      "vcov",
+      "sdcor",
+      "target",
+      "model"
+    ],
+    "sha256": "c1286e02fbbc61b59a531edc6267c0610e6d49b7d37867855aee1deeecca58c1",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/weighted_predictor_distributions.csv",
+    "rows": 16,
+    "columns": [
+      "wave",
+      "variable",
+      "n",
+      "missing_n",
+      "weighted_mean",
+      "weighted_sd",
+      "minimum",
+      "maximum"
+    ],
+    "sha256": "4aa2f647e34f3906c7336af026177786a64a6f000c3501735e7382bb502c6bcf",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/within_between_contrasts.csv",
+    "rows": 32,
+    "columns": [
+      "target",
+      "variable",
+      "within_original_unit",
+      "between_original_unit",
+      "difference",
+      "se",
+      "lower",
+      "upper",
+      "inference"
+    ],
+    "sha256": "1c73a3c5af3a1740c0ab8eefc4fdc04d14a6c6246de844e14a0ad88dc3b90322",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/within_between_correlations.csv",
+    "rows": 108,
+    "columns": [
+      "wave",
+      "target",
+      "variable",
+      "level",
+      "correlation",
+      "n_units"
+    ],
+    "sha256": "04e661a36d797a084fdc35f11e644fdc44b40465d86610b7dd5dd6dbac78e316",
+    "unit": "aggregate or model coefficient; no respondent records"
+  },
+  {
+    "path": "results/geography_thesis/analysis/within_position_diagnostics.csv",
+    "rows": 4,
+    "columns": [
+      "target",
+      "total_cells",
+      "adequate_cells",
+      "adequate_cells_mixed",
+      "adequate_mass",
+      "mixed_mass_all",
+      "adequate_mixed_fraction",
+      "adequate_weighted_discordance"
+    ],
+    "sha256": "00e72e08c077a892ac88d6866197595509a817be7a8c5baf431dd2918040d697",
+    "unit": "aggregate or model coefficient; no respondent records"
+  }
+]

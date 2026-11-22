@@ -1,0 +1,80 @@
+{
+  "cultural": {
+    "parameters": {
+      "C": 0.001556007451074916
+    },
+    "features": [
+      "age",
+      "sex",
+      "urban",
+      "education",
+      "employment",
+      "occupation",
+      "food_deprivation",
+      "water_deprivation",
+      "medical_deprivation",
+      "fuel_deprivation",
+      "cash_deprivation",
+      "asset_radio",
+      "asset_tv",
+      "asset_vehicle",
+      "asset_computer",
+      "asset_bank",
+      "asset_phone",
+      "electricity_home",
+      "unsafe_neighbourhood",
+      "area_electricity",
+      "area_water",
+      "area_school",
+      "area_clinic",
+      "log_gdp_pc",
+      "unemployment",
+      "gini",
+      "education_spending",
+      "public_health_spending"
+    ],
+    "calibration": {
+      "intercept": -0.016364944191907982,
+      "slope": 0.9456300401558896
+    }
+  },
+  "political": {
+    "parameters": {
+      "C": 0.0011068375245543954
+    },
+    "features": [
+      "age",
+      "sex",
+      "urban",
+      "education",
+      "employment",
+      "occupation",
+      "food_deprivation",
+      "water_deprivation",
+      "medical_deprivation",
+      "fuel_deprivation",
+      "cash_deprivation",
+      "asset_radio",
+      "asset_tv",
+      "asset_vehicle",
+      "asset_computer",
+      "asset_bank",
+      "asset_phone",
+      "electricity_home",
+      "unsafe_neighbourhood",
+      "area_electricity",
+      "area_water",
+      "area_school",
+      "area_clinic",
+      "log_gdp_pc",
+      "unemployment",
+      "gini",
+      "education_spending",
+      "public_health_spending"
+    ],
+    "calibration": {
+      "intercept": 0.34618855416750466,
+      "slope": 0.5967762092832432
+    }
+  }
+}

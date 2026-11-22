@@ -1,0 +1,16 @@
+[
+  {
+    "wave": 8,
+    "local_name": "data/raw/afro_r8.sav",
+    "bytes": 51684246,
+    "sha256": "e5ae40e9f7e8ead6b998bd77a2e98272ce3dc65b54481ca085c438f463ac664c",
+    "note": "Checksum of the workspace input. Verify against the independently obtained official release; document any mismatch."
+  },
+  {
+    "wave": 10,
+    "local_name": "data/raw/afro_r10.sav",
+    "bytes": 68728813,
+    "sha256": "613bc0ef15d0d93a3154cf40458a7cd980888a0cf0ad9751a74ed041b881bc91",
+    "note": "Checksum of the workspace input. Verify against the independently obtained official release; document any mismatch."
+  }
+]

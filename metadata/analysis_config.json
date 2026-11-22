@@ -1,0 +1,144 @@
+{
+  "seed": 20261121,
+  "targets": {
+    "economic": {
+      "r8": "Q47B",
+      "r9": null,
+      "valid": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "positive": [
+        4,
+        5
+      ],
+      "description": "Agreement that higher tax rates on rich people to benefit poor people are fair; neutral retained as non-agreement"
+    },
+    "cultural": {
+      "r8": "Q86C",
+      "r9": "Q87C",
+      "valid": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "positive": [
+        3,
+        4,
+        5
+      ],
+      "description": "Does not dislike having homosexual neighbours (would not care or would like); narrow tolerance item, not sexual orientation"
+    },
+    "political": {
+      "r8": "Q21",
+      "r9": "Q23",
+      "valid": [
+        1,
+        2,
+        3
+      ],
+      "positive": [
+        3
+      ],
+      "description": "Democracy preferable to any other government versus indifference/conditional nondemocratic preference"
+    },
+    "welfare": {
+      "r8": "Q45",
+      "r9": null,
+      "valid": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive": [
+        1,
+        2
+      ],
+      "description": "Higher taxes with more government services preferred over lower taxes with fewer services; neither excluded"
+    }
+  },
+  "experiments": {
+    "A": [
+      "age",
+      "sex",
+      "urban"
+    ],
+    "B": [
+      "age",
+      "sex",
+      "urban",
+      "education",
+      "employment",
+      "occupation",
+      "food_deprivation",
+      "water_deprivation",
+      "medical_deprivation",
+      "fuel_deprivation",
+      "cash_deprivation",
+      "asset_radio",
+      "asset_tv",
+      "asset_vehicle",
+      "asset_computer",
+      "asset_bank",
+      "asset_phone",
+      "electricity_home"
+    ],
+    "C": [
+      "age",
+      "sex",
+      "urban",
+      "education",
+      "employment",
+      "occupation",
+      "food_deprivation",
+      "water_deprivation",
+      "medical_deprivation",
+      "fuel_deprivation",
+      "cash_deprivation",
+      "asset_radio",
+      "asset_tv",
+      "asset_vehicle",
+      "asset_computer",
+      "asset_bank",
+      "asset_phone",
+      "electricity_home",
+      "unsafe_neighbourhood",
+      "fear_crime_home",
+      "area_electricity",
+      "area_water",
+      "area_school",
+      "area_clinic",
+      "log_gdp_pc",
+      "unemployment",
+      "gini",
+      "education_spending",
+      "public_health_spending"
+    ]
+  },
+  "categorical": [
+    "sex",
+    "urban",
+    "employment",
+    "occupation",
+    "asset_radio",
+    "asset_tv",
+    "asset_vehicle",
+    "asset_computer",
+    "asset_bank",
+    "asset_phone",
+    "electricity_home",
+    "area_electricity",
+    "area_water",
+    "area_school",
+    "area_clinic"
+  ],
+  "grouping": "country-region proxy, not true PSU",
+  "weight_estimand": "equal-country weighted mixture",
+  "primary_metric": "weighted log loss"
+}

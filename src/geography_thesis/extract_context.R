@@ -1,0 +1,8 @@
+if (dir.exists(".Rlib")) .libPaths(c(normalizePath(".Rlib"), .libPaths()))
+load('data/raw/geography/vdem.RData')
+print(dim(vdem)); print(names(vdem)[1:25])
+keep <- intersect(c('country_name','country_text_id','country_id','COWcode','year','v2x_polyarchy','v2x_polyarchy_codelow','v2x_polyarchy_codehigh','v2x_libdem'),names(vdem))
+write.csv(vdem[vdem$year>=2018 & vdem$year<=2025,keep], 'data/raw/geography/vdem_context_2018_2025.csv',row.names=FALSE)
+load('data/raw/geography/codebook.RData'); print(ls()); print(str(codebook,max.level=1))
+capture.output(str(codebook,max.level=2),file='data/raw/geography/codebook_structure.txt')
+if(is.data.frame(codebook)) write.csv(codebook,'data/raw/geography/codebook.csv',row.names=FALSE)
