@@ -72,3 +72,18 @@ All final rendering is in `src/geography_thesis/figures_and_tables.py`. Analytic
 ## Scope and disclosure
 
 No respondent records, source SAV/CSV files, individual predictions, model checkpoints, credentials or manuscript drafts are included. Aggregates describe country samples, performance, model coefficients and pairwise national AUC components. They are not population-weighted estimates for Africa. Source data release discrepancies, historical WDI-vintage dependence and untested locked legacy refits are documented rather than silently corrected. A new software release is not a permanent archival DOI deposit.
+# Machine-learning extension and revised figures
+
+Run `python src/geography_thesis/publication_figures.py` from the repository root to render Figures 1 to 18 from the released aggregates. Output files are editable SVGs and 450 dpi PNGs in `figures/geography_thesis/final/`.
+
+For the validation extension, first build the respondent files following `REPRODUCE_GEOGRAPHY.md`. Then run the following commands from the repository root.
+
+```sh
+python src/ml_extension/check_design.py
+python src/ml_extension/audit_shift.py
+python src/ml_extension/run_extension.py
+python src/ml_extension/evaluate_extension.py
+python src/ml_extension/matched_transport.py
+```
+
+`reports/ml_extension/analysis_specification.md` describes the tasks and information sets. `results/ml_extension/fold_design_audit.csv` records the sample counts, overlap and membership fingerprints of the outer and inner folds. `legacy_l2_algorithm_contrasts.csv` contains the four previously fitted five-fold LightGBM versus L2 logistic comparisons reported in the manuscript. The elastic-net search is a separate analysis.

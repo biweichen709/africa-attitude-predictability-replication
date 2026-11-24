@@ -1,0 +1,5 @@
+"target","model","probability","contrast","delta_log_loss","low","high"
+"economic","lightgbm minus logistic","calibrated","C algorithm contrast","0.002508294085377593","0.0002644201358459805","0.004949937155498564"
+"cultural","lightgbm minus logistic","calibrated","C algorithm contrast","0.025997049774549492","4.1779187744530765e-05","0.05475800224695453"
+"political","lightgbm minus logistic","calibrated","C algorithm contrast","0.006414750454091489","-0.007751404523009404","0.021421347349439325"
+"welfare","lightgbm minus logistic","calibrated","C algorithm contrast","-0.0015788383127771284","-0.003408802695471761","0.00019279268557616277"

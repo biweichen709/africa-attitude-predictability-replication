@@ -1,0 +1,46 @@
+{
+  "shared_countries": 30,
+  "r8_countries": 34,
+  "r10_countries": 38,
+  "shared_iso3": [
+    "AGO",
+    "BEN",
+    "BWA",
+    "CIV",
+    "CMR",
+    "CPV",
+    "GAB",
+    "GHA",
+    "GIN",
+    "GMB",
+    "KEN",
+    "LBR",
+    "LSO",
+    "MAR",
+    "MLI",
+    "MOZ",
+    "MUS",
+    "MWI",
+    "NAM",
+    "NGA",
+    "SEN",
+    "SLE",
+    "SWZ",
+    "TGO",
+    "TUN",
+    "TZA",
+    "UGA",
+    "ZAF",
+    "ZMB",
+    "ZWE"
+  ],
+  "label_discrepancy": {
+    "R8": "Gambia",
+    "R10": "Gambia, The",
+    "iso3": "GMB"
+  },
+  "sample_definitions": {
+    "outcome_valid": "nonmissing binary outcome",
+    "complete_core": "outcome valid and all eight parsimonious core predictors observed"
+  }
+}
